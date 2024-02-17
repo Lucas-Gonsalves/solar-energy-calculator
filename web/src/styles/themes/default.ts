@@ -27,4 +27,15 @@ export const defaultTheme = {
     'blue-400': "#003775",
     'blue-500': "#4682b4",
   },
+
+  'font-size' : {
+    sm: '1.2rem',
+    xm: '1.4rem',
+    md:'1.6rem',
+    lg: '1.8rem',
+    xlg: '2rem',
+    xg: '2.2rem',
+    xgg: '3.8rem',
+    exg: '4.2rem',
+  }
 };
