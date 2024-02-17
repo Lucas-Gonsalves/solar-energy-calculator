@@ -37,5 +37,14 @@ export const defaultTheme = {
     xg: '2.2rem',
     xgg: '3.8rem',
     exg: '4.2rem',
+  },
+
+  'font-weight': {
+    default: '400',
+    bold: '700',
+  },
+
+  'font-family': {
+    default: '"Roboto", sans-serif'
   }
 };
