@@ -1,11 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-import { CostumerRoutes } from "./costumer.routes";
+import { CustomerRoutes } from "./customer.routes";
 
 export function Routes() {
   return(
     <BrowserRouter>
     
-      <CostumerRoutes/>
+      <CustomerRoutes/>
     
     </BrowserRouter>
   );

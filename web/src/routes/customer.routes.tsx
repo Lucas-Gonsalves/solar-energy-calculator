@@ -9,7 +9,7 @@ import { Contact } from "../pages/Contact";
 import { Result } from "../pages/Result";
 
 
-export function CostumerRoutes() {
+export function CustomerRoutes() {
 
   return (
     <Routes>
