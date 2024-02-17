@@ -14,5 +14,14 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    background: ${props => props.theme.colors["white-100"]};
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body, input, text-area {
+    font-size: ${props => props.theme["font-size"].md};
+    font-family: ${props => props.theme["font-family"].default};
+    font-weight: ${props => props.theme["font-weight"].default};
+    color: ${props => props.theme.colors["gray-300"]};
   }
 `;
